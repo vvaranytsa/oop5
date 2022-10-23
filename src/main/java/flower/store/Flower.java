@@ -9,16 +9,21 @@ public class Flower {
 
     @Setter
     private FlowerColor color;
-    @Getter @Setter
+    @Getter
+    @Setter
     private FlowerType flowerType;
-    @Getter @Setter
+    @Getter
+    @Setter
     private double sepalLength;
-    @Getter @Setter
+    @Getter
+    @Setter
     private double price;
-    public Flower(){
+
+    public Flower() {
 
     }
-    public String getColor(){
+
+    public String getColor() {
         return color.toString();
     }
 
